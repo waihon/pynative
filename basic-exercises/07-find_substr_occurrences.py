@@ -1,6 +1,7 @@
 def find_substr_occurrences(substr, str):
+    print("Given String:", str)
+
     n = 0
-    
     idx = str.find(substr)
     while idx != -1:
         n += 1
